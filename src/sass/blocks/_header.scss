@@ -9,14 +9,12 @@
         list-style-type: none;
         width: 768px;
         padding-left: 0;
-
         &-item {
             padding-right: 66px;
             &:last-child {
                 padding-right: 0;
             }
         }
-
         &-link {
             @include fz_18;
             text-decoration: none;
