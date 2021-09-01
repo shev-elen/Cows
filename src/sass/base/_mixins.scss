@@ -1,0 +1,49 @@
+@mixin fz_18 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #141419;
+}
+
+@mixin fz_24 {
+    font-size: 24px;
+    color: #616161;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+@mixin fz_60 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #141419;
+}
+
+@mixin orange {
+    font-weight: 700;
+    color: #fb973b;
+    font-size: 24px;
+}
+@mixin line {
+    background-image: linear-gradient(#fb973b, #fb973b);
+    background-position: 0px 78%;
+    background-size: 100% 10px;
+    background-repeat: repeat-x;
+}
+
+/* если нужен повторяющийся участок кода ипользуют миксины
+@mixin reset  or {=reset }     (reset - название миксина) далее указываем св-ва миксина
+         width: 200px           также @mixin заменить можно  =reset, а в коде +reset
+         height: 250px
+         b-color: red
+
+
+         &_plus (было)
+         width: 22px         
+         height: 22px   Но ширину
+                                 
+         &_plus (стало)
+         @include reset или 
+         
+         &_subtitle
+         font-size: 16
+         +reset       (Здесь добавлены к font-size св-ва миксина) */

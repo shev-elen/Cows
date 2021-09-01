@@ -1,0 +1,17 @@
+.feed-form {
+    margin-top: 34px;
+    display: flex;
+    width: 391px;
+
+    input {
+        height: 57px;
+        width: 195px;
+        text-align: center;
+        border: solid 1px #e1e1e1;
+        background: #f8f8f8;
+        color: #141419;
+        font-size: 18px;
+        font-weight: 500;
+        /*  НУЖЕН ШРИФТ font-family: SFUIDisplay; */
+    }
+}
